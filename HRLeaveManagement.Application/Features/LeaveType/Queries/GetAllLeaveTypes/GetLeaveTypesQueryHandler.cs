@@ -23,7 +23,8 @@ namespace HRLeaveManagement.Application.Features.LeaveType.Queries.GetAllLeaveTy
 
             var leaveTypesDtos = _mapper.Map<List<LeaveTypeDto>>(leaveTypes);
 
-            _logger.LogInformation("Leave types were retrieved successfully");
+            _logger.LogInformation("Leave types were retrieved successfully!");
+
             return leaveTypesDtos;
         }
     }

@@ -1,11 +1,7 @@
 ﻿using AutoMapper;
 using HRLeaveManagement.Application.Contracts.Persistance;
+using HRLeaveManagement.Application.Exceptions;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HRLeaveManagement.Application.Features.LeaveType.Queries.GetLeaveTypeDetails
 {
@@ -25,7 +21,9 @@ namespace HRLeaveManagement.Application.Features.LeaveType.Queries.GetLeaveTypeD
             var leaveType = await _leaveTypeRepository.GetByIdAsync(request.Id);
 
             if (leaveType == null)
-                throw new NotFoundException(nameof(LeaveType), request.Id);
+            {
+                throw new EntityNotFoundException(nameof(Domain.LeaveType), request.Id);
+            }
 
             var leaveTypeDetailsDto = _mapper.Map<LeaveTypeDetailsDto>(leaveType);
 
