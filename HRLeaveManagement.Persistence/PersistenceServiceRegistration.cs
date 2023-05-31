@@ -1,5 +1,6 @@
 ﻿using HRLeaveManagement.Application.Contracts.Persistance;
 using HRLeaveManagement.Persistence.DatabaseContext;
+using HRLeaveManagement.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
