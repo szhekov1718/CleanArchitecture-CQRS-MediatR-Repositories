@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "l7SLnvmsycQdeIuaeoWIQAw0JrG1Ktv2AOQHX54r5LtA01U3NIEtAZ2Z+BIKjOCqyJgcStk0VLC2gdtsTi/Opg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\L15 Stanimir Zhekov\\source\\repos\\HRLeaveManagement.Domain\\HRLeaveManagement.Infrastructure\\HRLeaveManagement.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\L15 Stanimir Zhekov\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\L15 Stanimir Zhekov\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\L15 Stanimir Zhekov\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
