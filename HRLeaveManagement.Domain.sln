@@ -12,9 +12,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{B6999DC6-677B-4B4F-81FA-2F3C5B6A6CB3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{B92F58AE-DBE0-4535-B251-C6D5E37E9203}"
-	ProjectSection(SolutionItems) = preProject
-		PersistenceServiceRegistration.cs = PersistenceServiceRegistration.cs
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4DB8CBF8-71C0-4630-B980-AD319A148BB5}"
 EndProject
