@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using HRLeaveManagement.Application.Contracts.Logging;
 using HRLeaveManagement.Application.Contracts.Persistance;
 using MediatR;
 

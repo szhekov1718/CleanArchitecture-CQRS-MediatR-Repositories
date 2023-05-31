@@ -16,6 +16,8 @@ public static class PersistenceServiceRegistration
             options.UseSqlServer(configuration.GetConnectionString("HrDatabaseConnectionString"));
         });
 
+        // using typeof() because this is a generic type of T
+
         services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
         services.AddScoped<ILeaveTypeRepository, LeaveTypeRepository>();
         services.AddScoped<ILeaveAllocationRepository, LeaveAllocationRepository>();

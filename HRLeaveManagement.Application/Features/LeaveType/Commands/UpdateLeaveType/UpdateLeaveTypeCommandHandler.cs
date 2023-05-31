@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using HRLeaveManagement.Application.Contracts.Logging;
 using HRLeaveManagement.Application.Contracts.Persistance;
 using HRLeaveManagement.Application.Exceptions;
 using MediatR;
@@ -26,6 +27,8 @@ namespace HRLeaveManagement.Application.Features.LeaveType.Commands.UpdateLeaveT
 
             if (validationResult.Errors.Any())
             {
+                // don't use $"" with logging messages
+
                 _logger.LogWarning("Validation errors in update request for {0} - {1}!", nameof(Domain.LeaveType), request.Id);
 
                 throw new BadRequestException("Invalid Leave Type!", validationResult);
