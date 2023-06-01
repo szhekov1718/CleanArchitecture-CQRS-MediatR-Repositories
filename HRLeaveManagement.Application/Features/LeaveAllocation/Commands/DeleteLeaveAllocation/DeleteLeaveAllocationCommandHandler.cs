@@ -18,6 +18,8 @@ namespace HRLeaveManagement.Application.Features.LeaveAllocation.Commands.Delete
         {
             var leaveAllocation = await _leaveAllocationRepository.GetByIdAsync(request.Id);
 
+            // TODO: add logging to creating, deleting and updating
+
             if (leaveAllocation == null)
             {
                 throw new EntityNotFoundException(nameof(Domain.LeaveAllocation), request.Id);

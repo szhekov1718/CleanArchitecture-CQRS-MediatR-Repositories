@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
+using HRLeaveManagement.Application.Contracts.Logging;
 using HRLeaveManagement.Application.Contracts.Persistance;
+using HRLeaveManagement.Application.Features.LeaveType.Queries.GetLeaveTypeDetails;
 using MediatR;
 
 namespace HRLeaveManagement.Application.Features.LeaveAllocation.Queries.GetAllLeaveAllocations
@@ -8,8 +10,9 @@ namespace HRLeaveManagement.Application.Features.LeaveAllocation.Queries.GetAllL
     {
         private readonly ILeaveAllocationRepository _leaveAllocationRepository;
         private readonly IMapper _mapper;
+        private readonly IAppLogger<GetLeaveAllocationsQueryHandler> _logger;
 
-        public GetLeaveAllocationsQueryHandler(ILeaveAllocationRepository leaveAllocationRepository, IMapper mapper)
+        public GetLeaveAllocationsQueryHandler(ILeaveAllocationRepository leaveAllocationRepository, IMapper mapper, IAppLogger<GetLeaveAllocationsQueryHandler> logger)
         {
             _leaveAllocationRepository = leaveAllocationRepository;
             _mapper = mapper;
@@ -24,6 +27,8 @@ namespace HRLeaveManagement.Application.Features.LeaveAllocation.Queries.GetAllL
             var leaveAllocations = await _leaveAllocationRepository.GetLeaveAllocationsWithDetails();
 
             var allocationsDto = _mapper.Map<List<LeaveAllocationDto>>(leaveAllocations);
+
+            _logger.LogInformation("Leave allocations were retrieved successfully!");
 
             return allocationsDto;
         }
