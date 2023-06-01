@@ -1,7 +1,6 @@
 ﻿using HRLeaveManagement.Domain;
 using HRLeaveManagement.Domain.Common;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 
 namespace HRLeaveManagement.Persistence.DatabaseContext
 {
