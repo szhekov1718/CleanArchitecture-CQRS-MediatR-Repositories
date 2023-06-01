@@ -1,6 +1,7 @@
 ﻿using HRLeaveManagement.Domain;
 using HRLeaveManagement.Domain.Common;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace HRLeaveManagement.Persistence.DatabaseContext
 {
@@ -22,6 +23,14 @@ namespace HRLeaveManagement.Persistence.DatabaseContext
 
             base.OnModelCreating(modelBuilder);
         }
+
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    if (!optionsBuilder.IsConfigured)
+        //    {
+        //        optionsBuilder.UseSqlServer(optionsBuilder.con).GetConnectionString("HrDatabaseConnectionString"));
+        //    }
+        //}
 
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
