@@ -26,7 +26,7 @@ namespace HRLeaveManagement.Application.Features.LeaveType.Commands.UpdateLeaveT
                 .MustAsync(LeaveTypeNameUnique)
                 .WithMessage("Leave type already exists!");
 
-            this._leaveTypeRepository = leaveTypeRepository;
+            _leaveTypeRepository = leaveTypeRepository;
         }
 
         private async Task<bool> LeaveTypeMustExist(int id, CancellationToken arg2)
