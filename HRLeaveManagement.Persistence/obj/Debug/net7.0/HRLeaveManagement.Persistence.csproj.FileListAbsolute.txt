@@ -1,5 +1,0 @@
-C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Persistence\obj\Debug\net7.0\HRLeaveManagement.Persistence.csproj.AssemblyReference.cache
-C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Persistence\obj\Debug\net7.0\HRLeaveManagement.Persistence.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Persistence\obj\Debug\net7.0\HRLeaveManagement.Persistence.AssemblyInfoInputs.cache
-C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Persistence\obj\Debug\net7.0\HRLeaveManagement.Persistence.AssemblyInfo.cs
-C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Persistence\obj\Debug\net7.0\HRLeaveManagement.Persistence.csproj.CoreCompileInputs.cache
