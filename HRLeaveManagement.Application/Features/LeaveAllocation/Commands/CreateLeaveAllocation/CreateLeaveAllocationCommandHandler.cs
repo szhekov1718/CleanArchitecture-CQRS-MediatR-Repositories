@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
+using HRLeaveManagement.Application.Contracts.Logging;
 using HRLeaveManagement.Application.Contracts.Persistance;
 using HRLeaveManagement.Application.Exceptions;
+using HRLeaveManagement.Application.Features.LeaveType.Commands.UpdateLeaveType;
 using MediatR;
 
 namespace HRLeaveManagement.Application.Features.LeaveAllocation.Commands.CreateLeaveAllocation
@@ -10,12 +12,17 @@ namespace HRLeaveManagement.Application.Features.LeaveAllocation.Commands.Create
         private readonly IMapper _mapper;
         private readonly ILeaveAllocationRepository _leaveAllocationRepository;
         private readonly ILeaveTypeRepository _leaveTypeRepository;
+        private readonly IAppLogger<CreateLeaveAllocationCommandHandler> _logger;
 
-        public CreateLeaveAllocationCommandHandler(IMapper mapper, ILeaveAllocationRepository leaveAllocationRepository, ILeaveTypeRepository leaveTypeRepository)
+        public CreateLeaveAllocationCommandHandler(IMapper mapper,
+            ILeaveAllocationRepository leaveAllocationRepository,
+            ILeaveTypeRepository leaveTypeRepository,
+            IAppLogger<CreateLeaveAllocationCommandHandler> logger)
         {
             _mapper = mapper;
             _leaveAllocationRepository = leaveAllocationRepository;
             _leaveTypeRepository = leaveTypeRepository;
+            _logger = logger;
         }
 
         public async Task<Unit> Handle(CreateLeaveAllocationCommand request, CancellationToken cancellationToken)
@@ -25,6 +32,8 @@ namespace HRLeaveManagement.Application.Features.LeaveAllocation.Commands.Create
 
             if (validationResult.Errors.Any())
             {
+                _logger.LogWarning("Validation errors in update request for {0} - {1}!", nameof(Domain.LeaveAllocation), request.LeaveTypeId);
+
                 throw new BadRequestException("Invalid Leave Allocation Request!", validationResult);
             }
 
@@ -39,6 +48,8 @@ namespace HRLeaveManagement.Application.Features.LeaveAllocation.Commands.Create
             var leaveAllocation = _mapper.Map<Domain.LeaveAllocation>(request);
 
             await _leaveAllocationRepository.CreateAsync(leaveAllocation);
+
+            _logger.LogInformation("Leave allocation with id {0} was successfully created!", leaveAllocation.Id);
 
             return Unit.Value;
         }

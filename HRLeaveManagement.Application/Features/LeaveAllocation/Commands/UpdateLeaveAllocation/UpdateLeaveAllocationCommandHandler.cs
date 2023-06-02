@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
+using HRLeaveManagement.Application.Contracts.Logging;
 using HRLeaveManagement.Application.Contracts.Persistance;
 using HRLeaveManagement.Application.Exceptions;
+using HRLeaveManagement.Application.Features.LeaveType.Commands.UpdateLeaveType;
 using MediatR;
 
 namespace HRLeaveManagement.Application.Features.LeaveAllocation.Commands.UpdateLeaveAllocation
@@ -10,12 +12,17 @@ namespace HRLeaveManagement.Application.Features.LeaveAllocation.Commands.Update
         private readonly IMapper _mapper;
         private readonly ILeaveTypeRepository _leaveTypeRepository;
         private readonly ILeaveAllocationRepository _leaveAllocationRepository;
+        private readonly IAppLogger<UpdateLeaveAllocationCommandHandler> _logger;
 
-        public UpdateLeaveAllocationCommandHandler(IMapper mapper, ILeaveTypeRepository leaveTypeRepository, ILeaveAllocationRepository leaveAllocationRepository)
+        public UpdateLeaveAllocationCommandHandler(IMapper mapper,
+            ILeaveTypeRepository leaveTypeRepository,
+            ILeaveAllocationRepository leaveAllocationRepository,
+            IAppLogger<UpdateLeaveAllocationCommandHandler> logger)
         {
             _mapper = mapper;
             _leaveTypeRepository = leaveTypeRepository;
             _leaveAllocationRepository = leaveAllocationRepository;
+            _logger = logger;
         }
 
         public async Task<Unit> Handle(UpdateLeaveAllocationCommand request, CancellationToken cancellationToken)
@@ -25,6 +32,8 @@ namespace HRLeaveManagement.Application.Features.LeaveAllocation.Commands.Update
 
             if (validationResult.Errors.Any())
             {
+                _logger.LogWarning("Validation errors in update request for {0} - {1}!", nameof(Domain.LeaveAllocation), request.Id);
+
                 throw new BadRequestException("Invalid Leave Allocation!", validationResult);
             }
 

@@ -16,6 +16,7 @@ namespace HRLeaveManagement.Application.Features.LeaveAllocation.Queries.GetAllL
         {
             _leaveAllocationRepository = leaveAllocationRepository;
             _mapper = mapper;
+            _logger = logger;
         }
 
         public async Task<List<LeaveAllocationDto>> Handle(GetLeaveAllocationsQuery request, CancellationToken cancellationToken)
