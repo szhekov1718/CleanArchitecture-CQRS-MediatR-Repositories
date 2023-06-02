@@ -1,0 +1,5 @@
+C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Application\obj\Debug\net7.0\HRLeaveManagement.Application.csproj.AssemblyReference.cache
+C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Application\obj\Debug\net7.0\HRLeaveManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Application\obj\Debug\net7.0\HRLeaveManagement.Application.AssemblyInfoInputs.cache
+C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Application\obj\Debug\net7.0\HRLeaveManagement.Application.AssemblyInfo.cs
+C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Application\obj\Debug\net7.0\HRLeaveManagement.Application.csproj.CoreCompileInputs.cache

@@ -2,7 +2,6 @@
 using HRLeaveManagement.Application.Contracts.Logging;
 using HRLeaveManagement.Application.Contracts.Persistance;
 using HRLeaveManagement.Application.Exceptions;
-using HRLeaveManagement.Application.Features.LeaveType.Commands.UpdateLeaveType;
 using MediatR;
 
 namespace HRLeaveManagement.Application.Features.LeaveAllocation.Commands.DeleteLeaveAllocation
@@ -21,7 +20,6 @@ namespace HRLeaveManagement.Application.Features.LeaveAllocation.Commands.Delete
         public async Task<Unit> Handle(DeleteLeaveAllocationCommand request, CancellationToken cancellationToken)
         {
             var leaveAllocation = await _leaveAllocationRepository.GetByIdAsync(request.Id);
-
 
             if (leaveAllocation == null)
             {

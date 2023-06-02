@@ -2,7 +2,6 @@
 using HRLeaveManagement.Application.Contracts.Logging;
 using HRLeaveManagement.Application.Contracts.Persistance;
 using HRLeaveManagement.Application.Exceptions;
-using HRLeaveManagement.Application.Features.LeaveType.Commands.UpdateLeaveType;
 using MediatR;
 
 namespace HRLeaveManagement.Application.Features.LeaveType.Commands.CreateLeaveType
