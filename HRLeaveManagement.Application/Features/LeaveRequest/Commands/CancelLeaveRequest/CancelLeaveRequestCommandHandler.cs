@@ -1,5 +1,4 @@
 ﻿using HRLeaveManagement.Application.Contracts.Email;
-using HRLeaveManagement.Application.Contracts.Logging;
 using HRLeaveManagement.Application.Contracts.Persistance;
 using HRLeaveManagement.Application.Exceptions;
 using HRLeaveManagement.Application.Models.Email;
