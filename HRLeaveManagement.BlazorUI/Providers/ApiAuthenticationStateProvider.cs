@@ -12,7 +12,7 @@ namespace HRLeaveManagement.BlazorUI.Providers
 
         public ApiAuthenticationStateProvider(ILocalStorageService localStorage)
         {
-            this.localStorage = localStorage;
+            localStorage = localStorage;
             jwtSecurityTokenHandler = new JwtSecurityTokenHandler();
         }
 

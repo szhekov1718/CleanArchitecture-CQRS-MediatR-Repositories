@@ -1,4 +1,13 @@
-﻿namespace HRLeaveManagement.BlazorUI.Services
+﻿using AutoMapper;
+using Blazored.LocalStorage;
+using HRLeaveManagement.Application.Features.LeaveRequest.Commands.ChangeLeaveRequestApproval;
+using HRLeaveManagement.Application.Features.LeaveRequest.Commands.CreateLeaveRequest;
+using HRLeaveManagement.BlazorUI.Contracts;
+using HRLeaveManagement.BlazorUI.Models.LeaveAllocations;
+using HRLeaveManagement.BlazorUI.Models.LeaveRequests;
+using HRLeaveManagement.BlazorUI.Services.Base;
+
+namespace HRLeaveManagement.BlazorUI.Services
 {
     public class LeaveRequestService : BaseHttpService, ILeaveRequestService
     {
@@ -6,7 +15,7 @@
 
         public LeaveRequestService(IClient client, IMapper mapper, ILocalStorageService localStorageService) : base(client, localStorageService)
         {
-            this._mapper = mapper;
+            _mapper = mapper;
         }
 
         public async Task ApproveLeaveRequest(int id, bool approved)

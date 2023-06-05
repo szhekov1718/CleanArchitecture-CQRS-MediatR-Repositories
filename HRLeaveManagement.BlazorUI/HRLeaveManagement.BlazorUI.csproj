@@ -23,9 +23,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\LeaveRequests\" />
-    <Folder Include="Models\LeaveAllocations\" />
-    <Folder Include="Services\Base\" />
+    <ProjectReference Include="..\HRLeaveManagement.Application\HRLeaveManagement.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Pages\LeaveTypes\" />
+    <Folder Include="Pages\LeaveRequests\" />
   </ItemGroup>
 
 </Project>

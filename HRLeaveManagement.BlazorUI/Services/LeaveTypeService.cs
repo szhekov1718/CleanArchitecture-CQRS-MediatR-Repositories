@@ -1,5 +1,10 @@
 ﻿using AutoMapper;
 using Blazored.LocalStorage;
+using HRLeaveManagement.Application.Features.LeaveType.Commands.CreateLeaveType;
+using HRLeaveManagement.Application.Features.LeaveType.Commands.UpdateLeaveType;
+using HRLeaveManagement.BlazorUI.Contracts;
+using HRLeaveManagement.BlazorUI.Models.LeaveTypes;
+using HRLeaveManagement.BlazorUI.Services.Base;
 
 namespace HRLeaveManagement.BlazorUI.Services
 {
@@ -9,7 +14,7 @@ namespace HRLeaveManagement.BlazorUI.Services
 
         public LeaveTypeService(IClient client, IMapper mapper, ILocalStorageService localStorageService) : base(client, localStorageService)
         {
-            this._mapper = mapper;
+            _mapper = mapper;
         }
 
         public async Task<Response<Guid>> CreateLeaveType(LeaveTypeVM leaveType)

@@ -1,5 +1,6 @@
 using HRLeaveManagement.Api.Middlewares;
 using HRLeaveManagement.Application;
+using HRLeaveManagement.Identity;
 using HRLeaveManagement.Infrastructure;
 using HRLeaveManagement.Persistence;
 
@@ -10,6 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddApplicationServices();
 builder.Services.AddInfrastructureServices(builder.Configuration);
 builder.Services.AddPersistenceServices(builder.Configuration);
+builder.Services.AddIdentityServices(builder.Configuration);
 
 builder.Services.AddControllers();
 
@@ -35,6 +37,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
