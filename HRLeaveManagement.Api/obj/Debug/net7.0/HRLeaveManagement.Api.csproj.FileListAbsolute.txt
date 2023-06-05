@@ -1,9 +1,3 @@
-C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Api\obj\Debug\net7.0\HRLeaveManagement.Api.csproj.AssemblyReference.cache
-C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Api\obj\Debug\net7.0\HRLeaveManagement.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Api\obj\Debug\net7.0\HRLeaveManagement.Api.AssemblyInfoInputs.cache
-C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Api\obj\Debug\net7.0\HRLeaveManagement.Api.AssemblyInfo.cs
-C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Api\obj\Debug\net7.0\HRLeaveManagement.Api.csproj.CoreCompileInputs.cache
-C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Api\obj\Debug\net7.0\HRLeaveManagement.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Api\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Api\bin\Debug\net7.0\appsettings.json
 C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Api\bin\Debug\net7.0\HRLeaveManagement.Api.exe
@@ -77,7 +71,13 @@ C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManage
 C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Api\bin\Debug\net7.0\HRLeaveManagement.Infrastructure.pdb
 C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Api\bin\Debug\net7.0\HRLeaveManagement.Persistence.pdb
 C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Api\bin\Debug\net7.0\HRLeaveManagement.Domain.pdb
+C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Api\obj\Debug\net7.0\HRLeaveManagement.Api.csproj.AssemblyReference.cache
+C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Api\obj\Debug\net7.0\HRLeaveManagement.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Api\obj\Debug\net7.0\HRLeaveManagement.Api.AssemblyInfoInputs.cache
+C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Api\obj\Debug\net7.0\HRLeaveManagement.Api.AssemblyInfo.cs
+C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Api\obj\Debug\net7.0\HRLeaveManagement.Api.csproj.CoreCompileInputs.cache
 C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Api\obj\Debug\net7.0\HRLeaveManagement.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Api\obj\Debug\net7.0\HRLeaveManagement.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Api\obj\Debug\net7.0\staticwebassets\msbuild.HRLeaveManagement.Api.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Api\obj\Debug\net7.0\staticwebassets\msbuild.build.HRLeaveManagement.Api.props
 C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.HRLeaveManagement.Api.props

@@ -1,9 +1,4 @@
 C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Application.UnitTests\bin\Debug\net7.0\CoverletSourceRootsMapping
-C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Application.UnitTests\obj\Debug\net7.0\HRLeaveManagement.Application.UnitTests.csproj.AssemblyReference.cache
-C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Application.UnitTests\obj\Debug\net7.0\HRLeaveManagement.Application.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Application.UnitTests\obj\Debug\net7.0\HRLeaveManagement.Application.UnitTests.AssemblyInfoInputs.cache
-C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Application.UnitTests\obj\Debug\net7.0\HRLeaveManagement.Application.UnitTests.AssemblyInfo.cs
-C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Application.UnitTests\obj\Debug\net7.0\HRLeaveManagement.Application.UnitTests.csproj.CoreCompileInputs.cache
 C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Application.UnitTests\bin\Debug\net7.0\testhost.dll
 C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Application.UnitTests\bin\Debug\net7.0\EmptyFiles\archive\empty.7z
 C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Application.UnitTests\bin\Debug\net7.0\EmptyFiles\archive\empty.bz2
@@ -158,6 +153,11 @@ C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManage
 C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Application.UnitTests\bin\Debug\net7.0\HRLeaveManagement.Domain.dll
 C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Application.UnitTests\bin\Debug\net7.0\HRLeaveManagement.Application.pdb
 C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Application.UnitTests\bin\Debug\net7.0\HRLeaveManagement.Domain.pdb
+C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Application.UnitTests\obj\Debug\net7.0\HRLeaveManagement.Application.UnitTests.csproj.AssemblyReference.cache
+C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Application.UnitTests\obj\Debug\net7.0\HRLeaveManagement.Application.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Application.UnitTests\obj\Debug\net7.0\HRLeaveManagement.Application.UnitTests.AssemblyInfoInputs.cache
+C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Application.UnitTests\obj\Debug\net7.0\HRLeaveManagement.Application.UnitTests.AssemblyInfo.cs
+C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Application.UnitTests\obj\Debug\net7.0\HRLeaveManagement.Application.UnitTests.csproj.CoreCompileInputs.cache
 C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Application.UnitTests\obj\Debug\net7.0\HRLeaveManagement.Application.UnitTests.csproj.CopyComplete
 C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Application.UnitTests\obj\Debug\net7.0\HRLeaveManagement.Application.UnitTests.dll
 C:\Users\L15 Stanimir Zhekov\source\repos\HRLeaveManagement.Domain\HRLeaveManagement.Application.UnitTests\obj\Debug\net7.0\refint\HRLeaveManagement.Application.UnitTests.dll

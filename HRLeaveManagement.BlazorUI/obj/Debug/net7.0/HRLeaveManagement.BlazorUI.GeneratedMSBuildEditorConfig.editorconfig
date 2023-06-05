@@ -32,6 +32,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/L15 Stanimir Zhekov/source/repos/HRLeaveManagement.Domain/HRLeaveManagement.BlazorUI/Shared/BackToList.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEJhY2tUb0xpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/L15 Stanimir Zhekov/source/repos/HRLeaveManagement.Domain/HRLeaveManagement.BlazorUI/Shared/RedirectToLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFJlZGlyZWN0VG9Mb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/L15 Stanimir Zhekov/source/repos/HRLeaveManagement.Domain/HRLeaveManagement.BlazorUI/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
