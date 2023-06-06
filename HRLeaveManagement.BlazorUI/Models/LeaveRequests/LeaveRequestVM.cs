@@ -1,6 +1,5 @@
 ﻿using HRLeaveManagement.BlazorUI.Models.LeaveTypes;
 using System.ComponentModel.DataAnnotations;
-using System.Xml.Linq;
 
 namespace HRLeaveManagement.BlazorUI.Models.LeaveRequests
 {

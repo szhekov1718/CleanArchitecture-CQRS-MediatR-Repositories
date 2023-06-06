@@ -1,6 +1,4 @@
-﻿using System.Net.Http;
-
-namespace HRLeaveManagement.BlazorUI.Services.Base
+﻿namespace HRLeaveManagement.BlazorUI.Services.Base
 {
     public partial class Client : IClient
     {

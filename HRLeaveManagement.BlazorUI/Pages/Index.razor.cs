@@ -1,6 +1,4 @@
-﻿using HR.LeaveManagement.BlazorUI.Contracts;
-using HR.LeaveManagement.BlazorUI.Providers;
-using HRLeaveManagement.BlazorUI.Contracts;
+﻿using HRLeaveManagement.BlazorUI.Contracts;
 using HRLeaveManagement.BlazorUI.Providers;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Authorization;

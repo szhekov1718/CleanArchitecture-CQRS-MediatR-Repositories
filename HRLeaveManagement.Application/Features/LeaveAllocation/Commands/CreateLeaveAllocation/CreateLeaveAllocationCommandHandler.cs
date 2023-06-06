@@ -1,9 +1,7 @@
-﻿using AutoMapper;
-using HRLeaveManagement.Application.Contracts.Identity;
+﻿using HRLeaveManagement.Application.Contracts.Identity;
 using HRLeaveManagement.Application.Contracts.Logging;
 using HRLeaveManagement.Application.Contracts.Persistance;
 using HRLeaveManagement.Application.Exceptions;
-using HRLeaveManagement.Domain;
 using MediatR;
 
 namespace HRLeaveManagement.Application.Features.LeaveAllocation.Commands.CreateLeaveAllocation
